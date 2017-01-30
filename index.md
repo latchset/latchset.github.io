@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+# Welcome to Latchset
 
-You can use the [editor on GitHub](https://github.com/latchset/latchset.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## [Clevis & Tang](./clevistang/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Clevis](https://github.com/latchset/clevis) is a plugable framework for
+automated decryption. It can be used to provide automated decryption of
+data or even automated unlocking of LUKS volumes. 
+[Tang](https://github.com/latchset/tang) is a server for binding data to network presence.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## [Custodia](./custodia/)
 
-```markdown
-Syntax highlighted code block
+[Custodia](https://github.com/latchset/custodia) is a service to manage,
+retrieve and store secrets.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## [Javascript Object Signing and Encryption (JOSE)](./jose/)
 
-1. Numbered
-2. List
+[josé](https://github.com/latchset/jose) is a C-language implementation
+of the Javascript Object Signing and Encryption standards with plugable
+backends. [pyjose](https://github.com/latchset/pyjose) provides bindings
+for Python.
 
-**Bold** and _Italic_ and `Code` text
+[jwcrypto](https://github.com/latchset/jwcrypto) is a pure Python
+implementation of JOSE on top of 
+[PyCA cryptography](https://github.com/pyca/cryptography).
 
-[Link](url) and ![Image](src)
-```
+## [KDC Proxy (Kerberos over HTTPS)](./kdcproxy/)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[kdcproxy](https://github.com/latchset/kdcproxy) is a WSGI module for
+proxying Kerberos KDC requests over HTTPS by following the MS-KKDCP protocol
+specification.
 
-### Jekyll Themes
+## [misc](./misc/)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/latchset/latchset.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Misc and experimental projects. 
