@@ -31,6 +31,15 @@ implementation of JOSE on top of
 proxying Kerberos KDC requests over HTTPS by following the MS-KKDCP protocol
 specification.
 
+
+## [libverto (verto)](./libverto/)
+
+[libverto](https://github.com/latchset/libverto) is an asynchronous event loop
+abstraction library.  It provides a C interface which is backend-agnostic, as
+well as several backends, and can select a provider at either compile-time or
+run-time.
+
+
 ## [misc](./misc/)
 
 Misc and experimental projects. 
