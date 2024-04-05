@@ -1,4 +1,10 @@
+![banner](profile/latchset-banner.png)
+
 # Welcome to Latchset
+
+The latchset organization hosts projects related to applications or libraries
+for use in cryptography or security context and primarily targeted at Linux
+and Unix-like operating systems.
 
 ## [Clevis & Tang](./clevistang/)
 
@@ -43,3 +49,19 @@ run-time.
 ## [misc](./misc/)
 
 Misc and experimental projects. 
+
+
+## [pkcs11](./pkcs11/)
+
+Projects related to the [PKCS#11](https://www.oasis-open.org/committees/pkcs11/) standard
+
+[pkcs11-provider](https://github.com/latchset/pkcs11-provider) is an OpenSSL
+provider module to allow applications linking to OpenSSL to transparently
+use PKCS#11 tokens for cryptographic operations.
+
+[pkcs11-headers](https://github.com/latchset/pkcs11-headers) an Open Source
+licensing friendly rewrite of pkcs11 headers for C applications.
+
+[kryoptic](https://github.com/latchset/kryoptic) a Cryptoki software
+token written in Rust implementing the latest PKCS#11 API version.
+
