@@ -13,6 +13,10 @@ automated decryption. It can be used to provide automated decryption of
 data or even automated unlocking of LUKS volumes. 
 [Tang](https://github.com/latchset/tang) is a server for binding data to network presence.
 
+## Crypto-auditing
+
+[Crypto-Auditing](https://github.com/latchset/crypto-auditing)
+Provides a way to monitor cryptographic operations performed on a system
 
 ## [Custodia](./custodia/)
 
@@ -50,6 +54,11 @@ run-time.
 
 Misc and experimental projects. 
 
+
+## mod_auth_mellon
+
+[mod_auth_mellon](https://github.com/latchset/mod_auth_mellon)
+An Apache module with a simple SAML 2.0 service provider
 
 ## [pkcs11](./pkcs11/)
 
